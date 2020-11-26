@@ -1,0 +1,52 @@
+h1 {
+    color: brown;
+}
+
+
+.header1{
+   margin-left: 600px; 
+}
+.header2{
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.footer{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly ;
+
+}
+p,h2{
+    color: red;
+    text-align: center;
+     font-size: 25px;
+}
+body{
+    background-color:#808080 ;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color: turquoise;
+}
+.subheader {
+    position:relative;
+
+}
+.subheader p{
+    position: absolute;
+    top:40%;
+    left:30%;
+    opacity: 0;
+
+}
+.subheader:hover p{
+   opacity: 1;
+}
+.subheader:hover img{
+   opacity:0.10;
+}
